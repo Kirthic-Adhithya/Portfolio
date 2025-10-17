@@ -72,10 +72,10 @@ const Projects = () => {
               />
               
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-accent transition-colors">
+                <h3 className="text-2xl font-bold mb-2 text-black group-hover:text-accent transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-sm text-accent mb-4 font-medium">{project.subtitle}</p>
+                <p className="text-sm text-black mb-4 font-medium">{project.subtitle}</p>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   {project.description}
                 </p>
